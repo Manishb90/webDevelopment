@@ -1,0 +1,62 @@
+developer.mozilla.org
+
+!+tab -- HTML Boiler Plate
+emmet cheat sheet
+
+
+<Img> does not have close marks.
+<a href = " "> Name of the link </a>
+<div> === block element
+<span> == in line element.
+<hr>--- horizantal ruler(line)
+<br>-- line break
+<sup> --sup script
+<sub> sub script
+
+Semantic Markup::: 
+Instead of DIVS
+--Section
+--Article
+--nav
+--main
+--header
+--footer
+--aside
+--summary
+--details
+--time
+--fig /// figcaption
+
+table:
+
+<table>
+  <tr>
+      <th>..... </th>
+  </tr>
+  <tr>
+    <td>....</td>
+    
+  </tr>
+<table>
+
+=====================================================================
+Forms::
+===================================================================
+<input>
+<input type = "text/password"
+
+<input type = "text/password" placeholder ="username">
+
+label::
+================
+<label for = "name">Enter Name </label>
+<input type = "text/password" placeholder ="username" name = 'Name' id= "name>  ** ID in the input type should match for attribute in label. **ID should be unique 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTML Buttons::
+
+<button type = " " > </button> 
+************************************************************************************************************************************************************
+HTML attribute:
+* Min/Max
+* Required
+
