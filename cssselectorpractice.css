@@ -1,0 +1,21 @@
+#container {
+    background-color: aqua;
+
+}
+
+div {
+    width: 100px;
+    height: 100 px;
+    background-color: blue;
+    border: 1px rosybrown;
+}
+
+ul li {
+    text-decoration: none;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid green;
+    margin: 10px;
+    list-style-type: none;
+}
