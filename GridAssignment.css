@@ -1,0 +1,43 @@
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+
+}
+
+.child1 {
+    width: 200px;
+    height: 200px;
+    border: 5px skyblue;
+    margin: 10px;
+    /* background-color: aquamarine; */
+    background-image: ("depart.png");
+    background-attachment: local;
+    border-style: groove;
+}
+
+.child2 {
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(251, 251, 126);
+    margin: 10px;
+    /* background-color: goldenrod; */
+}
+
+.child3 {
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(83, 0, 0);
+    margin: 10px;
+    /* background-color: brown; */
+}
+
+label {
+    background-color: aqua;
+    8
+}

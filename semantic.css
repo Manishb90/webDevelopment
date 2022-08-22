@@ -1,0 +1,38 @@
+main {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "nav nav"
+        "left right"
+
+        "footer footer";
+    grid-template-columns: 200px 400px;
+    grid-template-rows: 150px 200px 500px 150px;
+}
+
+h1,
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: aqua;
+    grid-area: header;
+}
+
+nav {
+    background-color: antiquewhite;
+    grid-area: nav;
+}
+
+.right {
+    background-color: blue;
+    grid-area: right;
+
+}
+
+footer {
+    background-color: aquamarine;
+    grid-area: footer;
+}
