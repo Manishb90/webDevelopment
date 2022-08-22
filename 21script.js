@@ -35,3 +35,29 @@ console.log(result)
 
 const secondresult = addTwoNumber(2, 40)
 console.log(secondresult)
+
+//let variable
+
+let number = 10;
+console.log(number);
+number = 20;
+console.log(number);
+
+//Expression and Statement
+//statement eg:
+if (number === 50) {
+    console.log("value if Fifty");
+} else {
+    console.log("value is not fifty");
+}
+//syntax:
+
+
+
+//Exp eg:
+const isValue =
+    number === 50
+        ? console.log("value is fifty")
+        : console.log("not fifty");
+const isValue50 = number === 50 ? true : false;
+console.log(isValue50);
