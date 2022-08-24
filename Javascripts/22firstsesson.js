@@ -86,3 +86,12 @@ const development = {
 console.log(development);
 const newdevelopment = development;
 console.log(newdevelopment);
+
+console.log(document.querySelector(".root").textContent);
+console.log(document.body);
+console.log(document.querySelector("body"));
+console.dir(document.location);
+console.dir(document.title);
+//document.bgColor = "red";
+const heading = document.querySelector("h1");
+heading.style.color = "red";
