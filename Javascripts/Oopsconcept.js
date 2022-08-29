@@ -1,43 +1,42 @@
-//Constructor FUnction 
-// function Person() {
+'use strict'
+// //constuctr Function
 
-// }
-// "use strict";
-//this keyword
-console.log(this)
-const obj = {
-    name: "MB",
-    Age: 31,
-    calcAge: function () {
-        console.log(this);
-    },
-};
-obj.calcAge();
+// const Person = function (firstName) {
+//     this.first = firstName;
+//     this.calcAge = function (birthyear) {
+//         return 2022 - birthyear;
+//     }
+// };
+// const alexobj = new Person("Alex");
+// console.log(alexobj);
+// const newObj = new Person("Alexis");
+// console.log(newObj);
+// Person.prototype.map = function (birthyear) {
+//     return 2022 - birthyear;
+// };
+// console.log(Person.prototype);
+// console.log(alexobj.calcAge(1993));
 
 
+// const arr = new Array("Alex");
+//const arr = [1,2,3];
+// console.log(arr);
 
-let lockdown = true;
-const canDrive = true;
 
-if (canDrive) {
-    lock = true;
+///////////////////ES6 CLASSES ////////////////////////////
+
+class Person {
+    constructor(firstName, birthYear) {
+        this.firstName = firstName;
+        this.birthDate = birthYear;
+    }
+    calcAge() {
+        return 2022 - this.birthDate;
+    }
+    add(a, b) {
+        return a + b;
+    }
 }
-if (lockdown) {
-    console.log("you can drive");
-}
-
-//Falsy values in JS
-//0, fALSE, NULL, undefined, NaN, ''
-
-// const no = 1
-// const totalproduct = no ?? 20;
-
-// console.log(no);
-// if (totalproduct) {
-//     console.log('You have total Product');
-// }
-// else {
-//     console.log('You dont have total no');
-
-// }
+const objHari = new Person("Harry", 1990);
+console.log(objHari.calcAge());
 
