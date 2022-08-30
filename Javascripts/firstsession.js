@@ -1,22 +1,25 @@
 "use strict";
-//Set Method
-const numberSet = new Set([1, 2, 3, 4, 5, 6, 7, 1, 2]);
-console.log(numberSet);
+//Map Method
 
-console.log(numberSet.has(3));
+const restaurant = new Map();
+restaurant.set("Open", 10).set("close", 22);;
+console.log(restaurant);
+// console.log(restaurant.get("Open"));
 
-console.log(numberSet.delete(4));
-console.log(numberSet);
+console.log(...restaurant);
 
-console.log(numberSet.clear);
-console.log(numberSet);
+console.log(restaurant.has("Open"));
 
-//numberSet.map
+var twoSum = function (nums, target) {
+    let map = {};
 
-const mainMenu = new Set(["Pizza", "Momo", "pasta", "pizza", "Rice"]);
-console.log(mainMenu);
+    for (let i = 0; i < nums.length; i++) {
+        if (target - nums[i] in map) {
+            return [map[target - nums[i]], i];
+        } else {
+            map[nums[i]] = i;
+        }
+    }
+};
 
-for (const menuItem of mainMenu) {
-    console.log(menuItem);
-}
-console.log([...mainMenu]);
+
