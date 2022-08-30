@@ -13,12 +13,19 @@
 .child1 {
     width: 200px;
     height: 200px;
-    border: 5px skyblue;
-    margin: 10px;
+    border: 5px solid skyblue;
+    /* margin: 20px; */
     /* background-color: aquamarine; */
-    background-image: ("depart.png");
-    background-attachment: local;
-    border-style: groove;
+    background-image: url("depart.png");
+    /* border-style: groove; */
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    font-size: 20px;
+    border-style: solid;
+    margin-top: auto;
+
 }
 
 .child2 {
@@ -37,7 +44,19 @@
     /* background-color: brown; */
 }
 
-label {
-    background-color: aqua;
-    8
+
+
+.Top1 {
+    color: aqua;
+    text-align: center;
+    background-color: red;
+    margin-top: 5px;
+
+}
+
+.Boston {
+    color: aqua;
+    text-align: center;
+    background-color: red;
+    margin-top: 5px;
 }
